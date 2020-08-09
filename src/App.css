@@ -1,0 +1,49 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
+
+.app{
+  max-width: 60em;
+  margin:1em auto;
+
+}
+.venues{
+  display: flex;
+  flex-wrap:wrap;
+}
+.venue{
+  border:1px rgba(219,92,67, 1) solid;
+  margin:0.5em;
+  flex: 1 0 15em;
+}
+.venue-name{
+  color: rgba(38,113,127, 1);
+}
+
+.venue-type{
+  background-color: rgba(219,92,67, 1);
+  padding:0.5em;
+  margin-right:0.5em;
+  color:white;
+}
+.venue-filters{
+  margin-top: 1em;
+  text-align: center;
+}
+
+.venue-filter,.venue-filter:hover{
+  background-color: white;
+  color:rgba(219,92,67, 1);
+  font-weight: bold;
+  border:thin rgba(219,92,67, 1) solid !important;
+}
+.venue-filter.active{
+  background-color: rgba(219,92,67, 1) !important;
+  color:white;
+  font-weight: bold;
+}
+
+.venue-popup-body img{
+  display: block;
+  width: 100%;
+}
+
+
